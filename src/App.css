@@ -10,16 +10,21 @@ html{
   font-size: 62.5%;
 }
 
+a{
+  text-decoration: none !important;
+  color: inherit;
+}
+
 body{
-  background-color: #EEF4ED;
+  background-color: #F3F7F0;
   font-family: 'Rubik', sans-serif;
 
 }
 
 .header{
   text-align: center;
-  background-color: #0B2545;
-  color: #EEF4ED;
+  background-color: #1B264F;
+  color: #F3F7F0;
   padding: 3rem;
 }
 
@@ -31,4 +36,33 @@ body{
 .header__subtitulo{
   font-size: 2.5rem;
   font-weight: 600;
+}
+
+.carta{
+  background-color: #083D77;
+  color: #F3F7F0;
+  text-transform: capitalize;
+  width: 100%;
+  height: 30rem;
+  transition: .5s all;
+}
+
+.carta:hover{
+ background-color: #1B264F;
+}
+
+
+
+
+.carta__cuerpo{
+  padding: 2rem;
+
+}
+
+.carta__titulo{
+  font-size: 2.3rem;
+}
+
+.carta__texto{
+  font-size: 1.4rem;
 }

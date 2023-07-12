@@ -3,14 +3,13 @@ import { Card, CardBody, CardImg, CardText, CardTitle, Col } from 'reactstrap'
 
 const Trabajo = ({alumno,nombre, url, imagen, descripcion}) => {
 
-    console.log(nombre);
-
   return (
     <Col xl="4">
+    <a href={url}>
     <Card className="my-5">
         <CardImg
         alt={nombre}
-        src="../../../public/ejemplo.png"
+        src={`/assets/${imagen}`}
         top
         width="100%"
         />
@@ -28,6 +27,7 @@ const Trabajo = ({alumno,nombre, url, imagen, descripcion}) => {
         </CardText>
         </CardBody>
     </Card>
+    </a>
     </Col>
   )
 }

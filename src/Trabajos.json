@@ -1,6 +1,12 @@
 [{
-    "id": 1, "alumno": "Mi amigo Huevo", "url": "www.youtube.com", "imagen": "https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2020/10/amazon-1024x479.png", "nombre":"nombres", "descripcion": "descripcion anasheee"
+    "id": 1, "url": "www.youtube.com", "imagen": "ejemplo2.jfif", "nombre":"nombres", "descripcion": "descripcion anasheee"
 }, {
-    "id": 2, "alumno": "El negro Yuze", "url": "www.youtube.com", "imagen": ".", "nombre":"nombres", "descripcion": "descripcion anasheee"
+    "id": 2, "url": "www.youtube.com", "imagen": "ejemplo.png", "nombre":"nombres", "descripcion": "descripcion anasheee"
+},
+{
+    "id": 3, "url": "www.youtube.com", "imagen": "ejemplo.png", "nombre":"nombres", "descripcion": "descripcion anasheee"
+},
+{
+    "id": 4,  "url": "www.youtube.com", "imagen": "ejemplo.png", "nombre":"nombres", "descripcion": "descripcion anasheee"
 }
 ]

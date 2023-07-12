@@ -2,6 +2,7 @@ import React from 'react';
 import TrabajosL from "../Trabajos.json";
 import Trabajo from './Trabajo';
 import { Col, Container, Row } from 'reactstrap';
+import Trabajo2 from './Trabajo2';
 
 const Trabajos = () => {
   return (
@@ -9,13 +10,12 @@ const Trabajos = () => {
       <Row>
         {TrabajosL.map((tp) => {
           return (
-            <Trabajo
-              alumno={tp.alumno}
+            <Trabajo2
               nombre={tp.nombre}
               url={tp.url}
               imagen={tp.imagen}
               descripcion={tp.descripcion}
-              id={tp.id} 
+              key={tp.id} 
             />
           );
         })}
